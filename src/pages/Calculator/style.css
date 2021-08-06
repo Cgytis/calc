@@ -1,0 +1,29 @@
+.calculator-container {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border: solid grey;
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 81px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+.output{
+    display: flex;
+    justify-content: flex-end;
+    width: 325px;
+    height: 150px;
+    color: rgb(51, 51, 51);
+    background-color: grey;
+}

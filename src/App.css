@@ -1,13 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 * {
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Mobile*/
+
+
+.navbar{
+
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 4rem;
+  background-color: rgba(31, 15, 255, 0.883);
+}
+.navLincContainer{
+  display: flex;
+  margin: 0 0 0 15%;
+}
+.navLinc{
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.863);
+}
+.activeNavLinc{
+  text-decoration: underline rgb(241, 241, 241) 2px ;
+}
+ li{
+   font-size: 20px;
+   text-decoration: none;
+ }
+
 .wrapper {
-  width: 100vw - calc(100vw - 100%);
-  height: 100vh;
+  width: 100vw ;
+  height: 93vh;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
@@ -25,6 +56,7 @@ main {
 }
 
 h1 {
+  margin-bottom: 40px;
   height: 20%;
   display: flex;
   justify-content: center;
@@ -33,7 +65,7 @@ h1 {
   font-size: 2.5em;
 }
 
-.input, .output {
+.input, .output-pvm {
   display: flex;
   align-items: center;
 }
@@ -76,7 +108,7 @@ select {
   font-size: 1.5em;
 }
 
-.output {
+.output-pvm {
   height: 30%;
   margin: 25% 0;
   flex-direction: row;
@@ -102,16 +134,11 @@ p {
   background-color: #f4f4f4;
 }
 
-button{
-  width: 100px;
-  height: 35px;
-  font-size: 20px;
-  color: red;
-}
+
 
 @media screen and (min-width: 768px){
   main {
-      width: 80%;
+      width: 70%;
       height: 80%;
       padding: 2em;
   }
@@ -119,7 +146,7 @@ button{
       height: 40%;
   }
 
-  .output {
+  .output-pvm {
       height: 40%;
       margin: 0;
       padding: 5%;

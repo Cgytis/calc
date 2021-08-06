@@ -1,7 +1,7 @@
 
 const output = ({ withPVM, withoutPVM, PVM }) => {
     return (
-        <div className='output'>
+        <div className='output-pvm'>
             <p>Suma su PVM:&nbsp;</p>
             <div className="output-div"><span className="with-pvm-output">{withPVM}</span></div>
             <p>Suma be PVM:&nbsp; </p>
